@@ -153,7 +153,7 @@ img {
   background: url(../img/intro-bg-min.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
-  padding-bottom: 376px;
+  padding-bottom: 224px;
 }
 .intro__title {
   max-width: 619px;
@@ -260,7 +260,7 @@ img {
   display: grid;
   -ms-grid-columns: 1fr 55px 1fr 55px 1fr;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 55px;
+  column-gap: 55px;
   padding: 0 100px;
 }
 .benefits__card {
@@ -634,7 +634,7 @@ img {
     margin-bottom: 60px;
   }
   .tours__tour {
-    grid-column-gap: 35px;
+    column-gap: 35px;
   }
   .tour__info {
     padding-left: 0;
@@ -646,8 +646,8 @@ img {
     margin-bottom: 15px;
   }
   .top__cards {
-    grid-column-gap: 25px;
-    grid-row-gap: 55px;
+    column-gap: 25px;
+    row-gap: 55px;
   }
   .top__card {
     -ms-grid-column-span: 3;
